@@ -1,0 +1,100 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:linear-gradient(
+    to bottom right,
+    rgb(157, 225, 230) 0%,
+    rgb(6, 84, 148) 100%
+  );
+  margin:0;
+}
+
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(src/img/blob.svg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  width: 100vh;
+  height: 100vh;
+  margin:0;
+
+}
+
+
+.wrapper {
+
+  border-radius: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+h3 {
+  margin:0;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color:#c44569;
+}
+
+.joke {
+  margin:50px;
+  padding:0 auto;
+  line-height: 30px;
+  position: relative;
+  font-size: 18px;
+
+}
+
+.btn {
+  background-color:#c44569;
+  border:0;
+  padding: 14px 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  color:rgb(193, 233, 243);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+.btnScore >* {
+  margin: 10px;
+  font-size: 25px;
+  padding:0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  
+  
+}
+
+.wrapper-weather{
+  position: fixed;
+  top:0;
+  left: 0;
+  padding:10px;
+  color:white;
+  font-size: 18px;
+  letter-spacing:0.3rem;
+}
+
+.icon {
+  font-size: 35px;
+  display:inline;
+  margin-right: 10px;
+}
+
+.weather {
+  display: inline;
+}
